@@ -18,7 +18,7 @@ jobs:
         uses: subosito/flutter-action@v2
         with:
           channel: stable
-          flutter-version: 2.5.0
+          flutter-version: 2.15.1
       - name: Cache SonarCloud packages
         uses: actions/cache@v4
         with:
