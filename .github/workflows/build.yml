@@ -1,4 +1,7 @@
 name: SonarCloud
+
+image: ghcr.io/cirruslabs/flutter:3.24.3
+
 on:
   push:
     branches:
